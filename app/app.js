@@ -3,7 +3,8 @@ const apiUrl = "https://api.quotable.io/random";
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 
-getQuote(apiUrl);
+// Calls the API
+document.addEventListener("DOMContentLoaded", getQuote(apiUrl));
 
 // Functions
 
